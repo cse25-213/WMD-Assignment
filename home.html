@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boot Finder - Elite football boot catalog. Compare Speed, Control, and Heritage boots. Find your perfect pair today.">
+    <title>Boot Finder | Precision At Your Feet</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="brand-accent">BOOT</span>FINDER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ms-auto">
+                    <li><a class="nav-link active" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="speed.html">Speed</a></li>
+                    <li><a class="nav-link" href="control.html">Control</a></li>
+                    <li><a class="nav-link" href="care.html">Care Guide</a></li>
+                    <li><a class="nav-link" href="feedback.html">Request Review</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero-split px-lg-5">
+        <article class="hero-text-box">
+            <span class="motto">PRECISION AT YOUR FEET</span>
+            <h1 class="display-2 fw-bold mb-4">Elite Gear for the Modern Athlete</h1>
+            <p class="lead mb-5">Whether you're looking for explosive pace, surgical control, or timeless comfort, find the boots that define your game.</p>
+            <nav class="d-flex flex-wrap gap-3">
+                <a href="#explore" class="btn btn-action">Browse Collections</a>
+                <a href="feedback.html" class="btn btn-outline-light rounded-0 px-4 py-3">Book a Consultation</a>
+            </nav>
+        </article>
+    </header>
+
+    <!-- MAIN CATALOG SECTION -->
+    <main class="container py-5 my-5" id="explore">
+        <header class="row mb-5">
+            <section class="col-lg-6">
+                <h2 class="display-4 fw-bold">The Catalog</h2>
+                <hr style="width: 80px; height: 5px; background: var(--gold); border:none; opacity:1;">
+            </section>
+        </header>
+
+        <section class="row g-4">
+            <!-- Speed Card -->
+            <article class="col-md-6 col-lg-3">
+                <div class="card page-card shadow-sm">
+                    <img src="https://i.pinimg.com/1200x/c6/1b/47/c61b47d5e99ae214c4f8b39ea7d5fd54.jpg" 
+                         alt="Aerodynamic speed boots" width="600" height="250">
+                    <div class="card-overlay">
+                        <h3 class="h4 fw-bold">Speed</h3>
+                        <p class="small text-muted">Built for rapid acceleration and light-weight sprinting.</p>
+                        <a href="speed.html" class="btn btn-dark w-100 mt-2 rounded-0">View Speed</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Control Card -->
+            <article class="col-md-6 col-lg-3">
+                <div class="card page-card shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=600&q=80" 
+                         alt="Textured control boots" width="600" height="250">
+                    <div class="card-overlay">
+                        <h3 class="h4 fw-bold">Control</h3>
+                        <p class="small text-muted">Dominate the midfield with surgical touch and grip.</p>
+                        <a href="control.html" class="btn btn-dark w-100 mt-2 rounded-0">View Control</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Care Guide Card -->
+            <article class="col-md-6 col-lg-3">
+                <div class="card page-card shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1431324155629-1a6eda1eed15?auto=format&fit=crop&w=600&q=80" 
+                         alt="Classic leather boots" width="600" height="250">
+                    <div class="card-overlay">
+                        <h3 class="h4 fw-bold">Care Guide</h3>
+                        <p class="small text-muted">Professional maintenance for your elite equipment.</p>
+                        <a href="care.html" class="btn btn-dark w-100 mt-2 rounded-0">Maintenance</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Feedback Card -->
+            <article class="col-md-6 col-lg-3">
+                <div class="card page-card shadow-sm border-gold h-100 p-5 d-flex flex-column justify-content-center text-center" style="border: 1px solid var(--gold) !important;">
+                    <h3 class="h4 fw-bold">Reviews</h3>
+                    <p class="small text-muted">Request a review for a specific model today.</p>
+                    <a href="feedback.html" class="btn btn-action w-100 mt-4">Send Feedback</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <section class="col-lg-4 mb-4">
+                    <h4 class="footer-heading">BOOTFINDER</h4>
+                    <p>Designed for Year 1 Web & Multimedia Development at Botswana Accountancy College (BAC). All rights reserved 2026.</p>
+                </section>
+                <section class="col-lg-4 mb-4">
+                    <h5 class="text-white">The Repository</h5>
+                    <address class="text-secondary small">
+                        Student ID: [Enter SCIS Number]<br>
+                        Repository: <a href="#" class="text-gold" style="color:var(--gold)">Github.com/User/SCIS</a>
+                    </address>
+                </section>
+                <section class="col-lg-4 mb-4 text-lg-end">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <form class="input-group">
+                        <input type="email" class="form-control rounded-0" placeholder="Your Email">
+                        <button class="btn btn-action">Join</button>
+                    </form>
+                </section>
+            </div>
+            <hr class="mt-5 mb-4 border-secondary">
+            <p class="text-center small">Motto: Precision At Your Feet. | Built with Bootstrap 5</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
