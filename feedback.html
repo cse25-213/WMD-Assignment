@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request a football boot review or submit your hardware performance feedback.">
+    <title>Request Review | Boot Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <ol class="container list-unstyled d-flex justify-content-between align-items-center m-0 p-0 w-100">
+            <li><a class="navbar-brand m-0" href="index.html"><span class="brand-accent">BOOT</span>FINDER</a></li>
+            <li><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"><span class="navbar-toggler-icon"></span></button></li>
+            <li class="collapse navbar-collapse text-end" id="navContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="speed.html">Speed</a></li>
+                    <li class="nav-item"><a class="nav-link" href="control.html">Control</a></li>
+                    <li class="nav-item"><a class="nav-link" href="care.html">Care Guide</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="feedback.html">Request Review</a></li>
+                </ul>
+            </li>
+        </ol>
+    </nav>
+
+    <header class="category-header text-center py-5 mb-4">
+        <section class="container">
+            <h1 class="display-4 fw-bold text-uppercase tracking-wider">Request A Review</h1>
+            <p class="lead w-75 mx-auto mt-2">Missing an elite silo or want a deep dive analysis on a specific variant? Drop your target hardware specifications below.</p>
+        </section>
+    </header>
+
+    <nav class="container mb-4" aria-label="breadcrumb">
+        <ol class="breadcrumb bg-transparent m-0 p-0">
+            <li class="breadcrumb-item"><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+            <li class="breadcrumb-item active fw-bold text-dark" aria-current="page">Review Portal</li>
+        </ol>
+    </nav>
+
+    <main class="container py-4">
+        <section class="row justify-content-center">
+            <article class="col-md-8 col-lg-6">
+                
+                <div class="brand-section bg-white p-4 shadow-sm rounded">
+                    <header class="mb-4">
+                        <h2 class="fw-bold h3 text-uppercase m-0">Hardware Request Form</h2>
+                        <p class="text-muted small">All fields map directly into your native mail transmission dispatch.</p>
+                    </header>
+
+                    <form action="mailto:allan@example.com" method="post" enctype="text/plain">
+                        
+                        <div class="mb-3">
+                            <label for="userName" class="form-label fw-bold text-uppercase small">Your Name</label>
+                            <input type="text" name="Tester Name" class="form-control" id="userName" placeholder="e.g., Allan Raletsubutsubu" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="bootBrand" class="form-label fw-bold text-uppercase small">Target Boot Brand</label>
+                            <select name="Requested Brand" class="form-select" id="bootBrand" required>
+                                <option value="" selected disabled>Choose Manufacturer...</option>
+                                <option value="Nike">Nike Soccer</option>
+                                <option value="Adidas">Adidas Football</option>
+                                <option value="Puma">Puma Performance</option>
+                                <option value="Other">Other / Independent Brand</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="bootModel" class="form-label fw-bold text-uppercase small">Exact Boot Model Name</label>
+                            <input type="text" name="Specific Model" class="form-control" id="bootModel" placeholder="e.g., Phantom GX 2 Elite Link" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="feedbackNotes" class="form-label fw-bold text-uppercase small">Why should we review this boot?</label>
+                            <textarea name="Testing Motivation Notes" class="form-control" id="feedbackNotes" rows="5" placeholder="Tell us about the stud layout, unique upper textile variations, or on-field breakdown performance issues you want analyzed..." required></textarea>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-warning text-dark fw-bold text-uppercase py-2 shadow-sm">
+                                Open Mail & Dispatch Request 🚀
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+    <footer class="py-5 text-center mt-auto">
+        <section class="container">
+            <h4 class="mb-3 fw-bold tracking-wider text-uppercase">BOOTFINDER</h4>
+            <ul class="list-inline mb-4">
+                <li class="list-inline-item"><a href="index.html" class="text-muted text-decoration-none hover-gold">Home</a></li>
+                <li class="list-inline-item text-muted">|</li>
+                <li class="list-inline-item"><a href="speed.html" class="text-muted text-decoration-none hover-gold">Speed</a></li>
+                <li class="list-inline-item text-muted">|</li>
+                <li class="list-inline-item"><a href="control.html" class="text-muted text-decoration-none hover-gold">Control</a></li>
+                <li class="list-inline-item text-muted">|</li>
+                <li class="list-inline-item"><a href="care.html" class="text-muted text-decoration-none hover-gold">Care Guide</a></li>
+                <li class="list-inline-item text-muted">|</li>
+                <li class="list-inline-item"><a href="feedback.html" class="text-decoration-none fw-bold">Request Review</a></li>
+            </ul>
+            <p class="small text-muted mb-0">&copy; 2026 Boot Finder | Precision At Your Feet | Developer: Allan Raletsubutsubu</p>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
